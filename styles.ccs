@@ -1,7 +1,7 @@
-/* General Page Styling */
+/* Estilos Generales */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #e3f2fd; /* Light blue background */
+    background-color: #e3f2fd; /* Fondo azul claro */
     color: #333;
     margin: 0;
     padding: 20px;
@@ -11,22 +11,22 @@ body {
     min-height: 100vh;
 }
 
-/* Container Styling */
+/* Contenedor Principal */
 .container {
     background: #ffffff;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 650px;
+    max-width: 700px;
     width: 100%;
     text-align: center;
-    border-left: 6px solid #007BFF; /* Blue accent */
+    border-left: 6px solid #007BFF;
 }
 
-/* Header Styling */
+/* Encabezado */
 h1 {
     color: #007BFF;
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 10px;
 }
 
@@ -35,7 +35,7 @@ p {
     color: #555;
 }
 
-/* Scale List Styling */
+/* Lista de Escala */
 .scale {
     list-style-type: none;
     padding: 0;
@@ -43,7 +43,7 @@ p {
 }
 
 .scale li {
-    background: #f8f9fa;
+    background: #f1f3f5;
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
@@ -51,13 +51,12 @@ p {
     font-weight: bold;
 }
 
-/* Form Styling */
+/* Estilos del Formulario */
 form {
     display: flex;
     flex-direction: column;
 }
 
-/* Question Styling */
 ol {
     padding-left: 0;
     text-align: left;
@@ -66,14 +65,13 @@ ol {
 ol li {
     background: #f8f9fa;
     padding: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     border-radius: 6px;
     list-style: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    border-left: 5px solid #007BFF; /* Blue accent */
+    border-left: 5px solid #007BFF;
 }
 
-/* Radio Buttons Styling */
 input[type="radio"] {
     margin-right: 8px;
     transform: scale(1.1);
@@ -83,9 +81,11 @@ input[type="radio"] {
 label {
     font-size: 16px;
     color: #333;
+    display: inline-block;
+    margin: 5px 0;
 }
 
-/* Submit Button */
+/* Botón de Envío */
 input[type="submit"] {
     background: #007BFF;
     color: white;
@@ -104,7 +104,7 @@ input[type="submit"]:hover {
     transform: scale(1.05);
 }
 
-/* Result Display Styling */
+/* Resultado */
 #result {
     margin-top: 20px;
     padding: 15px;
@@ -133,10 +133,14 @@ input[type="submit"]:hover {
     color: #333;
 }
 
-/* Responsive Design */
+/* Diseño Responsivo */
 @media (max-width: 600px) {
     .container {
         padding: 20px;
+    }
+
+    h1 {
+        font-size: 22px;
     }
 
     ol li {
